@@ -1,0 +1,64 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Anton&family=Catamaran:wght@500&family=Montez&family=Mr+Dafoe&family=Oleo+Script:wght@700&family=Patua+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    position: absolute;
+    right: 100px;
+}
+.test{
+    padding-top:75px;
+}
+.nav-container {
+    display: flex;
+    width: 100%;
+    background-color: #ddd;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px 0 rgb(4 32 98 /20%);
+    position:fixed;
+    z-index:100;
+}
+
+#Menu1 li {
+    background-color: #ddd;
+    font-family: 'Oleo Script', cursive;
+}
+
+#Menu1 ul {
+    background-color: #ddd;
+    font-family: 'Oleo Script', cursive;
+}
+
+#Menu1 a {
+    background-color: #ddd;
+    color: blue;
+    font-size: 12px;
+    transition: 0.3s all ease-in-out;
+    margin: 10px 15px;
+    font-size: 20px;
+    font-family: 'Oleo Script', cursive;
+}
+
+    #Menu1 a:hover {
+        color: #404c9d;
+        transition: 0.3s all ease-in-out;
+    }
+
+.logo {
+    margin-left: 100px;
+    background-color: transparent;
+    color: blue;
+    font-weight: 900;
+    font-size: 75px;
+}

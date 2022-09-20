@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+  <link rel="stylesheet" href="css/master-page.css" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+            
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+
+    <div class="container">
+        <div class="nav-container">
+            <a class="logo" href="Default.aspx" style="text-decoration:none;    font-family: 'Oleo Script', cursive;">CPS</a>
+             <asp:Menu ID="Menu1" CssClass="navigation" runat="server" OnMenuItemClick="Menu1_MenuItemClick" Orientation="Horizontal">
+                          <Items>
+                              <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" Value="Home" ></asp:MenuItem>
+                              <asp:MenuItem Text="Products" Value="Products"></asp:MenuItem>
+                              <asp:MenuItem NavigateUrl="~/AboutUs.aspx" Text="About Us" Value="AboutUs"></asp:MenuItem>
+                              <asp:MenuItem NavigateUrl="~/ContactUs.aspx" Text="Contact Us" Value="ContactUs"></asp:MenuItem>
+                              <asp:MenuItem Text="User" Value="User">
+                                  <asp:MenuItem NavigateUrl="~/UserCart.aspx" Text="Cart" Value="Cart"></asp:MenuItem>
+                                  <asp:MenuItem NavigateUrl="~/UserOrders.aspx" Text="Orders" Value="Orders"></asp:MenuItem>
+                              </asp:MenuItem>
+                              <asp:MenuItem Text="Admin" Value="Admin">
+                                  <asp:MenuItem NavigateUrl="~/UserManagment.aspx" Text="UserManagment" Value="UserManagment"></asp:MenuItem>
+                                  <asp:MenuItem NavigateUrl="~/ProductsManagment.aspx" Text="ProductsManagment" Value="ProductsManagment"></asp:MenuItem>
+                                  <asp:MenuItem NavigateUrl="~/OrdersManagment.aspx" Text="OrdersManagment" Value="OrdersManagment"></asp:MenuItem>
+                                  <asp:MenuItem NavigateUrl="~/Messages.aspx" Text="Messages" Value="Messages"></asp:MenuItem>
+                              </asp:MenuItem>
+                              <asp:MenuItem Text="Log In" Value="LogInOut"></asp:MenuItem>
+                          </Items>
+                      </asp:Menu>
+        </div>
+             <div class="test">
+        <asp:ContentPlaceHolder  id="ContentPlaceHolder1"    runat="server"></asp:ContentPlaceHolder>
+
+              </div>
+
+ 
+
+    </div>
+    </form>
+</body>
+</html>

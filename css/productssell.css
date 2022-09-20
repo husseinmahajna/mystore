@@ -1,0 +1,44 @@
+﻿
+
+
+
+
+.pricediv{
+    display:flex;
+    justify-content:space-between;
+}
+.fa-cart-shopping {
+    color: white;
+    background: #4d7faa;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 21px;
+    transition: all 0.3s ease-in-out;
+}
+    .fa-cart-shopping:hover {
+        transition:all 1.3s ease-in-out;
+        background: rgb(67,9,121);
+        background: linear-gradient(90deg, rgba(67,9,121,1) 0%, rgba(67,9,121,1) 0%, rgba(138,238,232,0.9251050762101716) 100%);
+        cursor:pointer;
+    }
+    .dtl2{
+    opacity:0;
+    display:none;
+
+}
+.fa-plus, .fa-minus {
+    color: blue;
+    font-size: 20px;
+    margin: 0px 5px;
+    background: #64646447;
+    padding: 3px 3px;
+    border-radius: 23px;
+
+}
+    .fa-plus:hover, .fa-minus:hover {
+        cursor:pointer;
+    }
+    .amount1 {
+    font-size: 23px;
+    padding: 3px 3px;
+}

@@ -1,0 +1,66 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Oleo+Script:wght@700&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&family=Montez&family=Mr+Dafoe&family=Oleo+Script:wght@700&family=Patua+One&display=swap');
+
+.pcont {
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Patua One', cursive;
+    padding: 50px 100px;
+}
+img {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.imgdiv {
+    width: 350px;
+    height: 293.4px;
+    background-color: #f1f1f1;
+}
+td {
+    padding: 17px 70px;
+}
+.half {
+    flex-grow: 2;
+    /* padding: 50px 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 10px 10px 10px;
+}
+.template {
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    border-radius: 4px;
+    /* margin: 20px 20px; */
+    height: inherit;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    height: 527.4px;
+}
+
+.pname{
+    font-size:20px;
+    color:black;
+    direction:rtl;
+}
+.pprice {
+    font-size: 19px;
+    color: #0674ec;
+    font-family: 'Oleo Script', cursive;
+    font-weight:200;
+}
+.template div {
+}
+.namediv {
+}
+.pricediv {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+    .pricediv #sp1 {
+        padding: 7px;
+        background: rgba(6, 116, 236, 0.1);
+        border-radius: 24px;
+    }

@@ -1,0 +1,83 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap');
+
+body {
+    width: 100%;
+    height: 97vh;
+}
+
+.mcontainer {
+    height: 100%;
+    width: 100%;
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txt1 {
+    margin: 10px;
+    width: 100%;
+    border: gray 2px solid;
+    box-shadow: 0 36px 28px rgb(0 0 0 / 18%);
+    border-radius: 5px;
+    margin: 8px;
+    margin-left: 6px;
+}
+
+.text-area {
+    width: 100%;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 15px 28px rgba(0,0,0,18%);
+}
+
+.mcontainer div {
+    width: 34em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+    .mcontainer div label {
+        font-weight: 600;
+        font-size: 26px;
+        font-family: 'Great Vibes', cursive;
+    }
+
+
+
+h1 {
+    text-shadow: 0 10px 28px rgba(0,0,0,18%);
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: blue;
+}
+
+.btn1 {
+    margin: 7px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 19px;
+    width: 10em;
+    border: 2px solid rgb(25, 25, 144);
+    background-color: rgb(25, 25, 144);
+    color: black;
+    transition: ease-out 0.3s;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+    text-align: center;
+    font-size: 17px;
+    transition: transform 0.3s ease-in-out;
+    margin: 0 23px;
+}
+
+    .btn1:hover {
+        color: #EEE;
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform ease-in-out 0.3s;
+    }
